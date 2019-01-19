@@ -40,6 +40,7 @@ const Blog = () => (
     render={data => (
       <Layout>
         <SEO title="Blog" keywords={[`gatsby`, `application`, `react`]} />
+        <h1>List Blog</h1>
         <Link to="/">Go Back</Link>
         <div className="container">
           <div className="row">
