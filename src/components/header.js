@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1rem 1.2rem`,
+        padding: `3rem 1.2rem`,
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -26,9 +26,10 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-        <h3 style={{ margin: `0rem`, float: "right" }}>
+      </h1>
+        <h3 style={{ margin: `0rem`, float: "left" }}>
           <Link
-            to="blog"
+            to="blogs"
             style={{
               color: `white`,
               textDecoration: `none`,
@@ -47,17 +48,6 @@ const Header = ({ siteTitle }) => (
             Contact
         </Link>
         </h3>
-      </h1>
-      <h3 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-        </Link>
-      </h3>
     </div>
   </div>
 )
