@@ -23,7 +23,7 @@ const PostTemplate = (props) => {
                     { name: 'description', content: post.excerpt },
                 ]}
             />
-            <Link to="/blog/">Go Back</Link>
+            <Link to="/blogs/">Go Back</Link>
             <article>
                 <header>
                     <div className="background-bar">
