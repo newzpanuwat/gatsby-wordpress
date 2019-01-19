@@ -13,7 +13,6 @@ const Blog = () => (
             node {
               date(formatString: "DD, MMM YYYY")
               title
-              excerpt
               author {
                 name
               }
@@ -41,7 +40,6 @@ const Blog = () => (
       <Layout>
         <SEO title="Blog" keywords={[`gatsby`, `application`, `react`]} />
         <h1>List Blog</h1>
-        <Link to="/">Go Back</Link>
         <div className="container">
           <div className="row">
             <div className="col col-xs-12">
@@ -59,7 +57,7 @@ const Blog = () => (
                             node.featured_media.localFile.childImageSharp.sizes
                           }
                           alt="blog_image_one"
-                          className="img-fluid"
+                          className=""
                         />
                       )}
                     </div>
