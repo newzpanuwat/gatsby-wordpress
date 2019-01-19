@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
             Blog
         </Link>
           <Link
-            to="/"
+            to="/contact"
             style={{
               color: `white`,
               textDecoration: `none`,
@@ -56,7 +56,6 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Make your move.
         </Link>
       </h3>
     </div>
