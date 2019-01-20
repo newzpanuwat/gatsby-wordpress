@@ -11,7 +11,6 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div>
       <h2>GATSBY-WORDPRESS</h2>
-      <h2>ท่านสามารถรับชมได้ที่ปุ่ม 'Blog' ด้านบนเลยครัช</h2>
       <p>
         ข้อมูลจาก Blog นี้ทำการดึงมาจาก Wordpress โดยใช้ plugin ของ Gatsby
         ดึงโดยใช้ graphQL
@@ -21,7 +20,19 @@ const IndexPage = () => (
         แต่ก็จะลองดัดแปลงดูไปเรื่อยๆ
       </p>
       <p>
-        สนใจอ่าน Doc เพิ่มที่
+        <h2>What we learn?</h2>
+      </p>
+      <ul>
+        <li>Query Data with graphQL</li>
+        <li>Progressive Web Application(Mobile -> share-> Add to Homescreen)</li>
+        <li>Offline Mode(While no internet connection you can play this app)</li>
+        <li>Single Page Application</li>
+      </ul>
+      <p>
+        <h2>Other</h2>
+      </p>
+      <p>
+        Further reading..
         <a href="https://www.gatsbyjs.org/">&nbsp;Gatsby js.org</a>
       </p>
     </div>
