@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 const SecondPage = () => (
     <Layout>
         <SEO title="Contact" />
-        <h1>Contact me</h1>
+        <p style={{ fontSize: `30px` }}>Contact Me</p>
         <p>Website: newhales.cc</p>
         <p>Email: new_sbh@me.com</p>
         <Link to="/">Go back to the homepage</Link>

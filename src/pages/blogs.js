@@ -39,7 +39,7 @@ const Blog = () => (
     render={data => (
       <Layout>
         <SEO title="Blog" keywords={[`gatsby`, `application`, `react`]} />
-        <h1>List Blog</h1>
+        <p style={{ fontSize: `30px`}}>List Blog</p>
         <div className="container">
           <div className="row">
             <div className="col col-xs-12">
