@@ -52,7 +52,7 @@ module.exports = {
         display: 'standalone',
         orientation: 'any',
         start_url: '/?homescreen=1',
-        version: '1.0',
+        version: '2.0',
 
         icons: {
           android: true,
