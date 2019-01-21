@@ -4,7 +4,6 @@ import React from 'react'
 import Layout from '../components/layout'
 // import Image from '../components/image'
 import SEO from '../components/seo'
-import * as serviceWorker from '../utils/serviceWorker';
 // import { Spring } from 'react-spring'
 
 const IndexPage = () => (
@@ -45,6 +44,5 @@ const IndexPage = () => (
     </div>
   </Layout>
 )
-serviceWorker.register();
 
 export default IndexPage
