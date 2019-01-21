@@ -37,7 +37,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sw',
       options: {
-        swPath: 'src/utils/my-service-worker.js', // Default to 'src/sw.js'
+        swPath: 'src/sw.js', // Default to 'src/sw.js'
       },
     },
     'gatsby-plugin-offline',
